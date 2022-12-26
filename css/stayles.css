@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
 }
                                                          /*----------------HEADER BÖLÜMÜ-----------*/
 body{
@@ -24,13 +25,10 @@ header{
     opacity: 0.9;
 }
 main{
-
     flex: 1 1 590px;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    
-
 }
 section{
 
@@ -53,9 +51,6 @@ ul{
     display: inline-block;
     font-size: 25px;
     margin-left: 15px;
-    
-
-
 }
 header > ul{
     flex: 1 1 90%;
@@ -155,7 +150,7 @@ footer > div > h5{
      text-transform: uppercase;
      font-family: 'Roboto Slab', serif;;
 }
-footer > div > h5 >p{
+footer  > div > h5 >p{
     font-family: 'Playfair Display', serif;
 }
 @media only screen
@@ -164,3 +159,11 @@ and (max-device-width : 1024px)
 and (orientation : landscape){
     /* STYLES GO HERE */
 }
+ .sponsorlar
+ {
+    background-color: black;
+    height: 250px;
+ }
+.sponsorlar > h1 {
+    background: white;
+ }
