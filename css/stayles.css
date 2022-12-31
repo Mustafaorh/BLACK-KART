@@ -4,7 +4,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-
 }
                                                          /*----------------HEADER BÖLÜMÜ-----------*/
 body{
@@ -36,7 +35,6 @@ section{
     min-height: 300px;
     min-width: 40%;
 }
-
 #intro{
     flex: 1 0 100%;
     height: 537px;
@@ -49,7 +47,6 @@ ul{
 #logo{
     flex: 1 1 10%;
     display: inline-block;
-    font-size: 25px;
     margin-left: 15px;
 }
 header > ul{
@@ -72,7 +69,7 @@ header > ul{
    line-height: 80px;
 }
 ul li a {
-   color: white;
+    color: white;
    text-decoration: none;
    padding: 6px 13px;
    font-family:'Roboto Slab', serif ;
@@ -82,7 +79,6 @@ ul li a:hover{
     background:#ff6e00 ;
 }
 
-
                                                                                   /*--- Main bölümü---*/
 section{
     display: flex;
@@ -91,7 +87,6 @@ section{
     margin-left:  10rem;
     margin-right: 10rem;
 }
-
 /*article bölgesi*/
 .left{
     display: flex;
@@ -109,7 +104,6 @@ article > H2{
     font-size: 60px;
     font-family: 'Playfair Display', serif;
 }
-
 .lets{
     font-size: 17px;
     color: #FFB800;
@@ -118,12 +112,10 @@ article{
     size: 65px;
     
 }
-
 .image-A{
     width: 40%;
     height: auto;
 }
-
                                                                                   /*---footer bölümü---*/
 footer{
     display: flex;
@@ -150,7 +142,7 @@ footer > div > h5{
      text-transform: uppercase;
      font-family: 'Roboto Slab', serif;;
 }
-footer  > div > h5 >p{
+footer > div > h5 >p{
     font-family: 'Playfair Display', serif;
 }
 @media only screen
@@ -159,11 +151,3 @@ and (max-device-width : 1024px)
 and (orientation : landscape){
     /* STYLES GO HERE */
 }
- .sponsorlar
- {
-    background-color: black;
-    height: 250px;
- }
-.sponsorlar > h1 {
-    background: white;
- }
