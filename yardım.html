@@ -1,25 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Fontawesome CDN Link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
-    <link rel="icon" href="resim/icon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css/yardım.css">
-    <title>Web sitem/Destek</title>
-</head>
 
 <body>
-    <div class="banner">
-        <div class="navbar">
+
+        <header>
             <div id="logo">
                 <img src="resim/logo.jpg" alt="" height="70 px">
             </div >
-
+            
+        
             <ul>
                 <li class="activite"><a href="ana sayfa.html">Ana sayfa</a></li>
                 <li><a href="kart.html">Kart</a></li>
@@ -27,48 +14,52 @@
                 <li><a href="giriş.html">Giriş yap</a></li>
                 <li><a href="kaydol.html">Kaydol</a></li>
             </ul>
-        </div>
-
-    <div class="container">
-        <div class="content">
-            <div class="left-side">
-                <div class="address details">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <div class="topic">Adres</div>
-                    <div class="text">İstanbul</div>
-                    <div class="text">Türkiye</div>
-                </div>
-                <div class="phone details">
-                    <i class="fas fa-phone-alt"></i>
-                    <div class="topic">Telefon</div>
-                    <div class="text">+90 555 555 55 55</div>
-                    <div class="text">+90 555 555 55 55</div>
-                </div>
-                <div class="email details">
-                    <i class="fas fa-envelope"></i>
-                    <div class="topic">E-Posta</div>
-                    <div class="text">muhammetorhan481@gmail.com</div>
-                </div>
-            </div>
-            <div class="right-side">
-                <div class="topic-text">
-                    Bize Mesaj Gönderin
-                </div>
-                <form action="#">
-                    <div class="input-box">
-                        <input type="text" placeholder="Adınız">
-                    </div>
-                    <div class="input-box">
-                        <input type="text" placeholder="E-Posta Adresiniz">
-                    </div>
-                    <div class="input-box message-box">
-                        <textarea rows="5" placeholder="Mesajınız"></textarea>
-                    </div>
-                    <div class="button">
-                        <input type="button" value="Mesaj Gönder">
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
+        </header>
 </body>
+<br><br><br><br>
+<div class="contain">
+<link rel="stylesheet" href="css/yardım.css">
+    <div class="wrapper">
+  
+      <div class="form">
+        <h4>GET IN TOUCH</h4>
+        <h2 class="form-headline">Send us a message</h2>
+        <form id="submit-form" action="">
+          <p>
+            <input id="name" class="form-input" type="text" placeholder="Your Name*">
+            <small class="name-error"></small>
+          </p>
+          <p>
+            <input id="email" class="form-input" type="email" placeholder="Your Email*">
+            <small class="name-error"></small>
+          </p>
+          <p class="full-width">
+            <input id="company-name" class="form-input" type="text" placeholder="Company Name*" required>
+            <small></small>
+          </p>
+          <p class="full-width">
+            <textarea  minlength="20" id="message" cols="30" rows="7" placeholder="Your Message*" required></textarea>
+            <small></small>
+          </p>
+          <p class="full-width">
+            <input type="checkbox" id="checkbox" name="checkbox" checked> Yes, I would like to receive communications by call / email about Company's services.
+          </p>
+          <p class="full-width">
+            <input type="submit" class="submit-btn" value="Submit" onclick="checkValidations()">
+            <button class="reset-btn" onclick="reset()">Reset</button>
+          </p>
+        </form>
+      </div>
+  
+      <div class="contacts contact-wrapper">
+  
+        <ul>
+
+          <span class="hightlight-contact-info">
+            <li class="email-info"><i class="fa fa-envelope" aria-hidden="true"></i> Black kart@gmail.com</li>
+            <li><i class="fa fa-phone" aria-hidden="true"></i> <span class="highlight-text">+91 11 1111 2900</span></li>
+          </span>
+        </ul>
+      </div>
+    </div>
+  </div>

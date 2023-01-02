@@ -1,36 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>giriş yap</title>
-	<link rel="stylesheet" href="css/giriş.css">
-	<link rel="icon" href="resim/icon.ico" type="image/x-icon">
-</head>
-<body>
-	<div class="box">
-		<form autocomplete="off">
-			<h2>Giriş Yap</h2>
-			<div class="inputBox">
-				<input type="text" required="required">
-				<span>Userame</span>
-				<i></i>
-			</div>
-			<div class="inputBox">
-				<input type="password" required="required">
-				<span>Password</span>
-				<i></i>
-			</div>
-			<div class="links">
-				<a href="#">Forgot Password ?</a>
-				<a href="kaydol.html">Signup</a>
-			</div>
-			<a href="html2/index2.html" id="submit">login</a>
-			<!--
-				<a href="html2/index2.html">
-				<input type="submit" value="Login">
-			-->
-			</a>
-		</form>
+<link rel="stylesheet" href="css/giriş.css">
+<form action="/login" method="post">
+	<span id="title">Sign in</span>
+	<input type="text" id="username" name="username" placeholder="Username">
+	<input type="password" id="password" name="password" placeholder="Password">
+	
+	<div id="button">
+		<a href="ana sayfa.html">
+	  <input type="submit" value="Login" >
+	  <span class="rip1"></span>
+	  <span class="rip2"></span>
+	  </a>
 	</div>
-</body>
-</html>
+	<div id="linksParent">
+	  <a href="kaydol.html">Sign up</a>
+	  <a>Forgot your password?</a>
+	</div>
+  </form>
