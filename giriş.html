@@ -1,18 +1,39 @@
-<link rel="stylesheet" href="css/giriş.css">
-<form action="/login" method="post">
-	<span id="title">Sign in</span>
-	<input type="text" id="username" name="username" placeholder="Username">
-	<input type="password" id="password" name="password" placeholder="Password">
-	
-	<div id="button">
-		<a href="ana sayfa.html">
-	  <input type="submit" value="Login" >
-	  <span class="rip1"></span>
-	  <span class="rip2"></span>
-	  </a>
+<link rel="stylesheet" href="css/kaydol.css">
+<link rel="icon" href="resim/icon.ico" type="image/x-icon">
+<div class="container right-panel-active">
+	<title>BLACK KART</title>
+	<!-- Sign Up -->
+	<div class="container__form container--signup">
+		<form action="#" class="form" id="form1">
+			<h2 class="form__title">Sign Up</h2>
+			<input type="text" placeholder="User" class="input" />
+			<input type="email" placeholder="Email" class="input" />
+			<input type="password" placeholder="Password" class="input" />
+			
+		</form>
 	</div>
-	<div id="linksParent">
-	  <a href="kaydol.html">Sign up</a>
-	  <a>Forgot your password?</a>
+
+	<!-- Sign In -->
+	<div class="container__form container--signin">
+		<form action="#" class="form" id="form2">
+			<h2 class="form__title">Sign In</h2>
+			<input type="email" placeholder="Email" class="input" />
+			<input type="password" placeholder="Password" class="input" />
+			<a href="#" class="link">Forgot your password?</a>
+
+		</form>
 	</div>
-  </form>
+
+	<!-- Overlay -->
+	<div class="container__overlay">
+		<div class="overlay">
+			<div class="overlay__panel overlay--left">
+			<a href="../BLACK-KART/html2/index2.html"><button class="btn" id="signIn" >Sign In</button></a>
+			</div>
+			<div class="overlay__panel overlay--right">
+
+			<button class="btn" id="signUp">Sign Up</button>	
+			</div>
+		</div>
+	</div>
+</div>
